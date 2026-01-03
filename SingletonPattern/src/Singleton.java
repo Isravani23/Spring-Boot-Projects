@@ -17,6 +17,8 @@ public class Singleton {
         // s1 and s2 reference the same object
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
+        System.out.println(s1);
+        System.out.println(s2);
         System.out.println(s1==s2);
     }
 }
